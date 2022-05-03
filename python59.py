@@ -31,3 +31,16 @@ def sum(num11,num12):
 
 ptotal = sum(11,31)
 print(ptotal)
+
+print("After return function is completed it will exits for example below")
+
+print("With return recurrsive function2")
+def sum(num11,num12):
+    def another_func(num11, num12):
+        return num11 + num12
+    return another_func(num11, num12)
+    return 5
+    print('hello')
+
+xtotal = sum(12,32)
+print(xtotal)
